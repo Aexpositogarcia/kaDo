@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&display=swap");
+*:focus {
+  outline: 0 !important; /*Utilizado para quitar la ayuda al usuario**/
+}
+
+body {
+  background-color: #95adb1;
+}
+
+.botones {
+  padding: 20px;
+  font-family: Pacifico;
+  font-style: normal;
+  font-size: 35px;
+  color: #774346;
+  border: none;
+  background-color: #ee9692;
+  border-radius: 15px;
+  margin: 5%;
+}
+.botones:hover {
+  background: white;
+  color: #ee9692;
+}
+.divinicio {
+  padding-left: 40%;
+  margin-top: 5%;
+  text-align: center;
+}
+.divbotones {
+  padding-top: 10%;
+  padding-left: 40%;
+  text-align: center;
+}
+
+.central {
+  margin-bottom: 15%;
+  font-family: Amatic SC;
+  font-style: bold;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+}
+.central2 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: Amatic SC;
+  font-style: bold;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+}
+li {
+  margin: 40px;
+  margin-bottom: 40px;
+  list-style-type: none;
+  font-family: Pacifico;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+}
+li:hover {
+  
+  padding: 15px;
+  font-family: Pacifico;
+  font-style: normal;
+  font-size: 35px;
+  color: #ee9692;
+  border: none;
+  background-color:white;
+  border-radius: 15px;
+  margin: 5%;
+}
+
+.verticalnav {
+  position: fixed;
+  background-color: #6895a1;
+  height: 100%;
+  width: 100%;
+}
+.material-icons{
+  font-size: 36px;
+}
